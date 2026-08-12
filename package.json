@@ -4,5 +4,8 @@
   "private": true,
   "dependencies": {
     "yallist": "file:vendor/yallist-4.0.0.tgz"
+  },
+  "scripts": {
+    "postinstall": "node -e \"require('yallist')\""
   }
 }

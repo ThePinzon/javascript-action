@@ -2,9 +2,6 @@
   "name": "q4-awssdk-force",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "postinstall": "node -e \"console.log('post')\""
-  },
   "dependencies": {
     "@aws-sdk/client-sts": "3.1108.0",
     "@aws-sdk/client-s3": "3.1108.0"
